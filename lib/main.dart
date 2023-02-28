@@ -8,15 +8,20 @@ Future<void> main(List<String> args) {
   return runInstallerApp(
     args,
     flavor: FlavorData(
-      name: 'Ubuntu FLAVOR',
-      theme: yaruMagentaLight,
-      darkTheme: yaruMagentaDark,
+      name: 'Ubuntu Budgie',
+      theme: yaruLight,
+      darkTheme: yaruDark,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
     ),
     slides: [
-      firstSlide,
-      secondSlide,
-      thirdSlide,
+      welcomeSlide,
+      desktopSlide,
+      browseSlide,
+      officeSlide,
+      mediaSlide,
+      photosSlide,
+      softwareSlide,
+      gethelpSlide,
     ],
   );
 }
