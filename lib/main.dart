@@ -9,8 +9,8 @@ Future<void> main(List<String> args) {
     args,
     flavor: FlavorData(
       name: 'Ubuntu Budgie',
-      theme: yaruLight,
-      darkTheme: yaruDark,
+      theme: yaruUbuntuBudgieLight,
+      darkTheme: yaruUbuntuBudgieDark,
       localizationsDelegates: AppLocalizations.localizationsDelegates,
     ),
     slides: [
